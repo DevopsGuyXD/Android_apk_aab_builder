@@ -1,0 +1,4 @@
+storePassword=Pa55word@123
+keyPassword=Pa55word@123
+keyAlias=upload
+storeFile=/home/runner/work/boost_msme_app_builder/boost_msme_app_builder/Android_apk_aab_builder/upload-keystore.jks
