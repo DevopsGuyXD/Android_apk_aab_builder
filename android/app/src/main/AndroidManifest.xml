@@ -1,9 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.boost.bharathdundi12345">
+    package="com.boost.decanserrai">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="@string/FPTAG"
+        android:label="Deccan Serai"
         android:name="${applicationName}"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

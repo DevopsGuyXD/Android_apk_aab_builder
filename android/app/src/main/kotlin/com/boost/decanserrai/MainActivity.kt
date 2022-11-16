@@ -1,4 +1,4 @@
-package com.boost.bharathdundi12345
+package com.boost.decanserrai
 
 import io.flutter.embedding.android.FlutterActivity
 

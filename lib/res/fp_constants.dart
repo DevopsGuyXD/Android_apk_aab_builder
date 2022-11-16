@@ -1,12 +1,15 @@
 import 'dart:ui';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class FPConstants {
-  static int bg_color_env = int.parse(dotenv.env['FPLOGOBACKGROUNDCOLOR']!);
-  static int fg_color_env = int.parse(dotenv.env['FPLOGOFOREGROUNDCOLOR']!);
-  static String fpTag = dotenv.env['FPTAG']!;
-  static String fpRootAliasUri = dotenv.env['FPROOTALIASURI']!;
-  static String fpLogoUri = dotenv.env['FPLOGOURI']!;
-  static Color fpLogoBackgroundColor = Color(bg_color_env);
-  static Color fpLogoForegroundColor = Color(fg_color_env);
+  static const String fpTag = 'DECCANSERAI';
+  static const String fpRootAliasUri = 'https://www.rfconnectorncable.com/';
+  static const String fpLogoUri =
+      'https://fplogoimages.withfloats.com/actual/596d93358b90a7096c408baa.jpg';
+  static const Color fpLogoBackgroundColor = Color(0xFF0c2b48);
+  static const Color fpLogoForegroundColor = Color(0xFFbd8b51);
+
+  static RegExp fpStaticContentRegex =
+      RegExp(r'.*\.(css|js|jpg|png|jpeg|webp|svg|pdf|html|htm)$');
+  static const String httpScheme = 'HTTP://';
+  static const String httpsScheme = 'HTTPS://';
 }
