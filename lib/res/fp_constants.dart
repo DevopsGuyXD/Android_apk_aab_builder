@@ -9,4 +9,9 @@ class FPConstants {
   static String fpLogoUri = dotenv.env['FPLOGOURI']!;
   static Color fpLogoBackgroundColor = Color(bg_color_env);
   static Color fpLogoForegroundColor = Color(fg_color_env);
+
+  static RegExp fpStaticContentRegex =
+      RegExp(r'.*\.(css|js|jpg|png|jpeg|webp|svg|pdf|html|htm)$');
+  static const String httpScheme = 'HTTP://';
+  static const String httpsScheme = 'HTTPS://';
 }
